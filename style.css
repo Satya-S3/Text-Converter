@@ -26,7 +26,7 @@ textarea{
       background-color: rgba(0, 0, 0, 0.597);
       color: white;
       height: 150px;
-      min-width: 350px;
+      width: 350px;
       border-radius: 10px;
       padding: 20px;
 }
@@ -55,4 +55,12 @@ textarea{
 .innerDiv button:hover{
       color: white;
       text-shadow: 2px 2px 3px black;
+}
+@media screen and (max-width: 620px) {
+      textarea{
+            width: 280px;
+      }
+      .innerDiv select{
+            width: 250px;
+      }
 }
