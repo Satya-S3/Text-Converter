@@ -29,7 +29,7 @@ document.querySelector("#speak").addEventListener('click',function(){
             .map(result=>result[0])
             .map(result=>result.transcript)
 
-            document.querySelector('textarea').innerHTML=transcript;
+            document.querySelector('textarea').value = transcript;
       })
 
       if(speech==true){
